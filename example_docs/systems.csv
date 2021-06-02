@@ -1,0 +1,6 @@
+PasswordProfileID,ProxyUser,FQDN,ComputerClass,ProxyUserIsManaged,SessionType,AllowManualLocalAccountUnlock,ProxyUserPassword,SystemProfileId,Description,AllowAutomaticLocalAccountMaintenance,Name
+,,192.168.1.99,Windows,,Rdp,,,,test,,Test1
+,,168.123.1.50,Unix,,Ssh,,,,test,,Testc
+,,test.test1.nt,Unix,,Ssh,,,,test,,Testb
+,,test.test1.nt,Unix,,Ssh,,,,test,,Test2
+,,1.1.1.1,Unix,,Ssh,,,,test,,testing

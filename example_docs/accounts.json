@@ -1,0 +1,17 @@
+[
+	{
+		"ParentEntityTypeOfAccount": "Domain",
+		"User": "a1",
+		"DomainID": "bb9700df-f99a-4011-969d-e4c5e8cea81a", 
+		"Password": "password1", 
+		"Description": "Test", 
+		"IsManaged": "false", 
+		"UseWheel": "false"
+	},
+	{
+		"ParentEntityTypeOfAccount": "Domain", 
+		"User": "b2", 
+		"DomainID": "bb9700df-f99a-4011-969d-e4c5e8cea81a", 
+		"Password": "password1"
+	}
+]

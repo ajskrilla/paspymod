@@ -1,0 +1,4 @@
+PasswordProfileID,Port,FQDN,InstanceName,ServiceName,DatabaseClass,Description,Name
+,,sql1.test.net,,,SQLServer,Test,sql1
+,,oracle.test.net,,oracle,Oracle,Test,oracle
+,,deez.nutz.com,,oracle,Oracle,Test,oracle1
