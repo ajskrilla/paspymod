@@ -56,7 +56,7 @@ def Add_Account(**kwargs):
 			args['DatabaseID'] = DB_Query["Result"]["Results"][0]["Row"]['ID']
 			other_requests(Call="/ServerManage/AddAccount", Debug=True, **kwargs)
 			return None
-	log.info("Sucessfully Added account {0}".format(args['Name']))
+	log.info("Sucessfully Added account {0}".format(args['User']))
 if __name__ == "__main__":
 	args = vars(cl())
 	Add_Account()
