@@ -32,7 +32,6 @@ class get_system:
                     'Healthy' :self.query["Result"]["Results"][i]["Row"]['Healthy'],
                     'LastHealthCheck' : self.query["Result"]["Results"][i]["Row"]['LastHealthCheck']
                 }
-                log.info("Domain Return info: {0}".format(self.sys_dict))
                 pp.pprint(self.sys_dict)
     #maybe trash as this is not valid in a CL arg. More of an SDK/Module
     @property

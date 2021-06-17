@@ -34,7 +34,6 @@ class get_system:
                     'LastHealthCheck' : self.query["Result"]["Results"][i]["Row"]['LastHealthCheck'],
                     'LastState' : self.query["Result"]["Results"][i]["Row"]['LastState']
                 }
-                log.info("System Return info: {0}".format(self.sys_dict))
                 pp.pprint(self.sys_dict)
     #maybe trash as this is not valid in a CL arg. More of an SDK/Module
     @property
